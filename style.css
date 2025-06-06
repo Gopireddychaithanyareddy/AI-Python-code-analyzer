@@ -1,0 +1,109 @@
+/* General Page Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    max-width: 650px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Headings */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+}
+
+/* Buttons Container */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+/* Button Styling */
+button {
+    flex: 1;
+    margin: 5px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+/* Individual Button Colors */
+#runButton {
+    background: #3498db; /* Blue */
+}
+
+#runButton:hover {
+    background: #2980b9;
+}
+
+#debugButton {
+    background: #e74c3c; /* Red */
+}
+
+#debugButton:hover {
+    background: #c0392b;
+}
+
+#optimizeButton {
+    background: #2ecc71; /* Green */
+}
+
+#optimizeButton:hover {
+    background: #27ae60;
+}
+
+/* Output Section */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#output {
+    height: 150px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    padding: 10px;
+    outline: none;
+}
